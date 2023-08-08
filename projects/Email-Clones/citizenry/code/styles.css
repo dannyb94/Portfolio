@@ -1,0 +1,15 @@
+* {
+    max-width: 572px;
+    margin: auto;
+}
+
+/* FOOTER */
+#ftrList {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#ftrList li {
+    float: left;
+    margin: 0 8px;
+}

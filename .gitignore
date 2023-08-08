@@ -1,3 +1,10 @@
+# Ignore Folders - Temp
+/branding
+/new-portfolio
+/portfolio-site
+/resume
+/projects/Lantern-App
+
 # Logs
 logs
 *.log
