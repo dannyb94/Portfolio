@@ -7,7 +7,7 @@ import Body from './Components/Container/Body';
 export default function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div id='site'>
         <Nav />
         <Body />
       </div>

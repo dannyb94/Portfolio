@@ -15,16 +15,16 @@ import {Link} from 'react-router-dom';
 export default function Grid() {
     return (
         <div id='MainCntnr'>
-            <Link className='projects' to='/Project1'>DeleteText1<div class="box box1"></div></Link>
-            <Link className='projects' to='/Project2'>DeleteText2<div class="box box2"></div></Link>
-            <Link className='projects' to='/Project3'>DeleteText3<div class="box box3"></div></Link>
-            <Link className='projects' to='/Project4'>DeleteText4<div class="box box4"></div></Link>
-            <Link className='projects' to='/Project5'>DeleteText5<div class="box box5"></div></Link>
-            <Link className='projects' to='/Project6'>DeleteText6<div class="box box6"></div></Link>
-            <Link className='projects' to='/Project7'>DeleteText7<div class="box box7"></div></Link>
-            <Link className='projects' to='/Project8'>DeleteText8<div class="box box8"></div></Link>
-            <Link className='projects' to='/Project9'>DeleteText9<div class="box box9"></div></Link>
-            <Link className='projects' to='/Project10'>DeleteText10<div class="box box10"></div></Link>
+            <Link className='box box1' to='/Project1'><div>{/* <img src='https://placehold.co/600x400'/> */}</div></Link>
+            <Link className='box box2' to='/Project2'><div></div></Link>
+            <Link className='box box3' to='/Project3'><div></div></Link>
+            <Link className='box box4' to='/Project4'><div></div></Link>
+            <Link className='box box5' to='/Project5'><div></div></Link>
+            <Link className='box box6' to='/Project6'><div></div></Link>
+            <Link className='box box7' to='/Project7'><div></div></Link>
+            <Link className='box box8' to='/Project8'><div></div></Link>
+            <Link className='box box9' to='/Project9'><div></div></Link>
+            <Link className='box box10' to='/Project10'><div></div></Link>
         </div>
     );
 };
