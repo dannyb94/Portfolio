@@ -16,7 +16,13 @@ export default function Grid() {
     return (
         <div id='MainCntnr'>
             <Link className='box box1' to='/Project1'><div>{/* <img src='https://placehold.co/600x400'/> */}</div></Link>
-            <Link className='box box2' to='/Project2'><div></div></Link>
+            <div className='box box2' to='/Project2'>
+                <div className='box2Inner'>
+                    <p>Say "Hey"</p>
+                    <p>What you do</p>
+                </div>
+            </div>
+            {/* <Link className='box box2' to='/Project2'><div></div></Link> */}
             <Link className='box box3' to='/Project3'><div></div></Link>
             <Link className='box box4' to='/Project4'><div></div></Link>
             <Link className='box box5' to='/Project5'><div></div></Link>

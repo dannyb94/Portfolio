@@ -1,11 +1,19 @@
 import React from 'react';
+import { LoremIpsum } from "react-lorem-ipsum";
 
 export default function Project3() {
     return (
         <div>
-            <h1>Project3</h1>
-            <p>This should be a project page</p>
-            <p>Pg content design here</p>
+            <div className='FlexGridTop'>
+                <div className='col col1'>
+                    {/* <img src='https://placehold.co/1000x350' alt='placeholder'/> */}
+                </div>
+            </div>
+            <div className='FlexGridTop'>
+                <div className='col col1-2'>
+                    <p><LoremIpsum avgWordsPerSentence={12} avgSentencesPerParagraph={4}/></p>
+                </div>
+            </div>
         </div>
     );
 };

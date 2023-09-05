@@ -1,5 +1,5 @@
 import './App.css';
-// import React from 'react';
+import './Fonts.css';
 import {BrowserRouter} from 'react-router-dom';
 import Nav from './Components/Container/Nav';
 import Body from './Components/Container/Body';
