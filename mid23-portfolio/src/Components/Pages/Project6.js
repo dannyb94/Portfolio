@@ -15,10 +15,10 @@ export default function Project6() {
                 </div>
             </div>
             <div className='FlexGridQuad'>
-                <div className='quadcol'>
-                </div>
-                <div className=''>
-                </div>
+                <div className='quadCol quadCol1-4'></div>
+                <div className='quadCol quadCol2-3'></div>
+                <div className='quadCol quadCol2-3'></div>
+                <div className='quadCol quadCol1-4'></div>
             </div>
             
         </div>

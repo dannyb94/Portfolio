@@ -14,6 +14,12 @@ export default function Project5() {
                     <p><LoremIpsum avgWordsPerSentence={12} avgSentencesPerParagraph={4}/></p>
                 </div>
             </div>
+            <div className='FlexGridQuad'>
+                <div className='quadCol quadCol1-4'></div>
+                <div className='quadCol quadCol2-3'></div>
+                <div className='quadCol quadCol2-3'></div>
+                <div className='quadCol quadCol1-4'></div>
+            </div>
         </div>
     );
 };
