@@ -51,6 +51,12 @@
         gap: 0;
     }
 
+    img {
+        max-width: 100%;
+        /* object-fit: contain;
+        aspect-ratio: 2/1; */
+    }
+
     .sameBox1 {
         /* width: 500px; */
         flex: 2;
@@ -175,5 +181,5 @@
     }
 
     /* -------------------------------- CONTACT/RESUME -------------------------------- */
-    
+
 }
