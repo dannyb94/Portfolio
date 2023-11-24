@@ -2,13 +2,44 @@
 font-family: 'Ubuntu', sans-serif; */
 
 * {
-    max-width: 600px;
-    margin: auto;
-    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    text-align: center;
 }
 
-/* BODY */
-header {
+#footer {
+    background-color: gray;
+}
+
+#legal {
+    /* width: 600px; */
+    /* gotta figure out the width of the p tags w/out messing with overall width */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------- BODY ----------------------------- */
+/* header {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -33,26 +64,8 @@ header {
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #sctn2Cntnr {
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-} */
-
 .sctn2ImgDivLt {
-    background-color: darkcyan;  /* Temp Color */
+    background-color: darkcyan;
     height: 301px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -67,55 +80,14 @@ header {
     text-align: center;
     line-height: 30px;
     padding-top: 90px;
-}
-
-/* .sctn2ImgDivRt { */
-    /* background-color: rebeccapurple;  Temp Color */
-    /* height: 301px; */
-/* } */
-
-/* .sctn2ImgRt {
-    float: right;
-    height: 301px;
 } */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#newExcl {
-    font-size: 0;
-}
-
-#insider {
-    text-align: center;
-    border-top: 1px solid #d7d7d7;
-}
-
-#insider img {
-    margin: 10px 0;
-}
-
-/* FOOTER */
-footer {
+/* ----------------------------- FOOTER ----------------------------- */
+/* footer {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 11px;
@@ -162,4 +134,4 @@ footer {
 #ftrUL2 li {
     float: left;
     margin: 0 5px;
-}
+} */
