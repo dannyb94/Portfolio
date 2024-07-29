@@ -2,136 +2,212 @@
 font-family: 'Ubuntu', sans-serif; */
 
 * {
-    font-family: 'Ubuntu', Helvetica, sans-serif;
     text-align: center;
-}
-
-#footer {
-    background-color: gray;
-}
-
-#legal {
-    /* width: 600px; */
-    /* gotta figure out the width of the p tags w/out messing with overall width */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------- BODY ----------------------------- */
-/* header {
+    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
 }
 
-#logo1 {
-    text-align: center;
+/* -------------------- TABLET/DESKTOP -------------------- */
+@media only screen and (min-width: 420px){
+    #topLogo {
+        margin-bottom: 20px;
+    }
+    
+    .navSpace {
+        width: 20%;
+        font-family: 'Ubuntu', Helvetica, sans-serif;
+        color: #1e365b;
+    }
+
+    .subHead {
+        padding-top: 15px;
+    }
+
+    .subbie {
+        background-color: #00a7cf;
+        margin-right: 10px;
+    }
+
+    .insider {
+        background-color: #1e365b;
+    }
+
+    .navLeft {
+        border-left: 1px solid #1e365b;
+    }
+
+    .tableStyles {
+        border-collapse: collapse;
+    }
+
+    .sectImgs {
+        object-fit: cover;
+    }
+    
+    #outdoor {
+        background-color: #5892B5;
+        width: 250px;
+    }
+
+    #sling, #umbrella {
+        background-color: #DB6D67;
+        width: 250px;
+    }
+
+    #wicker {
+        background-color: #1D365E;
+        width: 250px;
+    }
+
+    #cush {
+        background-color: #B54B47;
+        width: 250px;
+    }
+
+    #plants {
+        background-color: #8BC7E1;
+        width: 250px;
+    }
+
+    #decor {
+        background-color: #EBBA58;
+        width: 250px;
+    }
+
+    #outdoor p, #sling p, #wicker p,
+    #cush p, #plants p, #umbrella p,
+    #decor p {
+        color: white;
+        margin: 4px;
+    }
+
+    .shopOutBtn {
+        background-color: #1D365E;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        width: 17%;
+        padding: 15px 5px;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 25px 0 25px 0;
+    }
+
+    .shopBtn {
+        background-color: #1D365E;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        width: 10%;
+        padding: 15px 5px;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 25px 0 25px 0;
+    }
+
+    #dsgnrs1 {
+        background-image: linear-gradient(white, #f1f1f1);
+    }
+
+    #dsgnrs2 {
+        background-image: linear-gradient(#f1f1f1, white);
+    }
+
+    #designers {
+        background-color: #f1f1f1;
+    }
+
+    .dsgnrsImgs {
+        width: 100%;
+        height: auto;
+    }
+
+    #heySanta {
+        background-color: #ba0c2f;
+    }
+
+
+    /* Individual furniture items section */
+    #indivFrntr td {
+        width: 50%;
+    }
+    .frntrNames {
+        padding: 0 15px 7px 15px;
+        font-size: 12px;
+        line-height: 145%;
+        color: #36457b;
+        padding-top: 20px;
+    }
+    .crossedText {
+        text-transform: uppercase;
+        text-decoration: line-through;
+        font-size: 14px;
+        padding-bottom: 7px;
+        color: #36457b;
+    }
+    .redText {
+        text-transform: uppercase;
+        color: rgb(208, 0, 0);
+        font-weight: 500;
+        font-size: 14px;
+        padding-bottom: 45px;
+    }
+
+    .redText2 {
+        padding-bottom: 0;
+    }
+
+    #bgstSlctn {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-top: 1px solid #f1f1f1;
+        border-bottom: 2px solid #f2f2f2;
+        padding: 20px 0;
+    }
+
+    .btmNav {
+        font-size: 22px;
+        font-weight: 600;
+        color: #36457b;
+    }
+
+    .btmNav td {
+        padding: 20px 0;
+    }
+
+    .socials img {
+        padding: 0 30px 10px 30px;
+    }
+
+    #footer {
+        background-color: #f1f1f1;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #a5a5a5;
+    }
+    
+    .legal {
+        font-size: 12px;
+        padding: 20px 0 5px 0;
+    }
+
+    .btmLinks {
+        padding: 0 15px;
+    }
+
+    .resub {
+        border-left: 1px solid #a5a5a5;
+        border-right: 1px solid #a5a5a5;
+    }
+
+    #footer p {
+        padding-bottom: 13px;
+        line-height: 160%;
+        letter-spacing: 0.5px;
+    }
 }
 
-#logo1 img {
-    width: 250px;
-    margin: 20px;
-}
-
-#nav {
-    display: inline-block;
-    text-align: center;
-}
-
-#nav li {
-    float: left;
-    margin: 0 20px 0 1px;
-    list-style: none;
-    font-size: 15px;
-}
-
-.sctn2ImgDivLt {
-    background-color: darkcyan;
-    height: 301px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.sctn2ImgLt {
-    float: left;
-    height: 301px;
-}
-
-.sctn2Text {
-    color: white;
-    text-align: center;
-    line-height: 30px;
-    padding-top: 90px;
-} */
-
-
-
-
-
-/* ----------------------------- FOOTER ----------------------------- */
-/* footer {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 11px;
-    margin-bottom: 25px;
-}
-
-#txtCntnr {
-    color: #898d94;
-    text-align: center;
-    background-color: #f5f6f5;
-    padding: 30px 65px;
-    line-height: 180%;
-}
-
-#ftrCntnr {
-    text-align: center;
-}
-
-#ftrUL1 {
-    display: inline-block;
-    list-style: none;
-    align-content: center;
-}
-
-#ftrUL1 li {
-    float: left;
-    margin: 0 25px;
-}
-
-#ftrUL1 img {
-    width: 35px;
-}
-
-#ftrView {
-    font-weight: 500;
-    color: #08a7d1;
-}
-
-#ftrUL2 {
-    display: inline-block;
-    list-style: none;
-}
-
-#ftrUL2 li {
-    float: left;
-    margin: 0 5px;
-} */
+/* -------------------- PHONE -------------------- */
+@media only screen and (max-width: 420px){}

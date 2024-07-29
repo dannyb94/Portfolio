@@ -1,0 +1,292 @@
+* {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* -------------------- TABLET/DESKTOP -------------------- */
+@media only screen and (min-width: 420px){
+    /* table {
+        background-color: #f2ece6;
+    }
+
+    #header img {
+        width: 600px;
+    }
+
+    .subHead td {
+        padding: 40px 20px ;
+        font-weight: 300;
+        font-size: 23px;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .twoPart td {
+        width: 50%;
+    }
+
+    .Padding1 {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .Padding2 {
+        padding: 10px 10px 10px 5px;
+    }
+
+    #shopBtn {
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        padding: 5px 0 60px 0;
+    }
+
+    #shopBtn a {
+        background-color: white;
+        padding: 20px 60px;
+    }
+
+    #shopBtn a:link,  #shopBtn a:visited,  #shopBtn a:hover,  #shopBtn a:active {
+        color: #3d3d3d;
+        text-decoration: none;
+    }
+
+    #alcanena {
+        padding-bottom: 15px;
+    }
+
+    .twoPart .alignLeft {
+        text-align: left;
+    }
+
+    .twoPart .alignRight {
+        text-align: right;
+    }
+
+    #duoSpacing td {
+        padding: 10px 0 30px 0;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 5px;
+    }
+
+    #sixPart {
+        background-color: white;
+        color: #3d3d3d;
+        text-transform: uppercase;
+        margin-top: 15px;
+        border-top: 1px solid #3d3d3d5e;
+        letter-spacing: 5px;
+        font-size: 14px;
+    }
+
+    .sixPart {
+        background-color: white;
+        color: #3d3d3d;
+        text-transform: uppercase;
+        margin-top: 15px;
+        border-top: 1px solid #3d3d3d5e;
+    }
+
+    .sixPart td {
+        width: 50%;
+    }
+
+    .spBottom td {
+        border-bottom: 1px solid #3d3d3d5e;
+    }
+
+    .borderRight {
+        border-right: 1px solid #3d3d3d5e;}
+
+    #triImg {
+        background-color: white;
+    }
+
+    #btm trtd {
+        width: 50%;
+        font-size: 30px;
+    }
+
+    .footer {
+        color: #3d3d3d;
+        background-color: white;
+    }
+
+    #aligned {
+        display: flex;
+        align-items: center;
+        letter-spacing: 5px;
+        font-size: 14px;
+        color: #3d3d3d;
+        border-bottom: 1px solid #3d3d3d5e;
+        text-transform: uppercase;
+        width: 97%;
+    }
+
+    #aligned img {
+        padding-left: 60px;
+    }
+
+    #aligned span {
+        padding-left: 15px;
+    }
+    
+    .socials img {
+        padding: 0 50px;
+    }
+    
+    .footer td {
+        font-size: 10px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer a:link,  .footer a:visited,  .footer a:hover,  .footer a:active {
+        color: #3d3d3d;
+        font-family: Arial, Helvetica, sans-serif;
+    } */
+}@media only screen and (min-width: 420px){
+    table {
+        background-color: #f2ece6;
+    }
+
+    #header img {
+        width: 600px;
+    }
+
+    .subHead td {
+        padding: 40px 20px ;
+        font-weight: 300;
+        font-size: 23px;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .twoPart td {
+        width: 50%;
+    }
+
+    .Padding1 {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .Padding2 {
+        padding: 10px 10px 10px 5px;
+    }
+
+    #shopBtn {
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        padding: 5px 0 60px 0;
+    }
+
+    #shopBtn a {
+        background-color: white;
+        padding: 20px 60px;
+    }
+
+    #shopBtn a:link,  #shopBtn a:visited,  #shopBtn a:hover,  #shopBtn a:active {
+        color: #3d3d3d;
+        text-decoration: none;
+    }
+
+    #alcanena {
+        padding-bottom: 15px;
+    }
+
+    .twoPart .alignLeft {
+        text-align: left;
+    }
+
+    .twoPart .alignRight {
+        text-align: right;
+    }
+
+    #duoSpacing td {
+        padding: 10px 0 30px 0;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 5px;
+    }
+
+    #sixPart {
+        background-color: white;
+        color: #3d3d3d;
+        text-transform: uppercase;
+        margin-top: 15px;
+        border-top: 1px solid #3d3d3d5e;
+        letter-spacing: 5px;
+        font-size: 14px;
+    }
+
+    .sixPart {
+        background-color: white;
+        color: #3d3d3d;
+        text-transform: uppercase;
+        margin-top: 15px;
+        border-top: 1px solid #3d3d3d5e;
+    }
+
+    .sixPart td {
+        width: 50%;
+    }
+
+    .spBottom td {
+        border-bottom: 1px solid #3d3d3d5e;
+    }
+
+    .borderRight {
+        border-right: 1px solid #3d3d3d5e;}
+
+    #triImg {
+        background-color: white;
+    }
+
+    .footer {
+        color: #3d3d3d;
+        background-color: white;
+    }
+
+    #aligned {
+        display: flex;
+        align-items: center;
+        letter-spacing: 5px;
+        font-size: 14px;
+        color: #3d3d3d;
+        border-bottom: 1px solid #3d3d3d5e;
+        text-transform: uppercase;
+        width: 97%;
+    }
+
+    #aligned img {
+        padding-left: 60px;
+    }
+
+    #aligned span {
+        padding-left: 15px;
+    }
+    
+    .socials img {
+        padding: 10px;
+    }
+    
+    .footer td {
+        font-size: 10px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer a:link,  .footer a:visited,  .footer a:hover,  .footer a:active {
+        color: #3d3d3d;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+
+/* -------------------- PHONE -------------------- */
+@media only screen and (max-width: 420px){}

@@ -1,0 +1,197 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------- TABLET/DESKTOP -------------------- */
+@media only screen and (min-width: 420px){
+    .cntrText {
+        text-align: center;
+    }
+
+    #comp {
+        text-transform: uppercase;
+    }
+
+    .redGrid {
+        background-color: rgb(215, 15, 52);
+        color: white;
+        text-align: center;
+        height: 350px;
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    .titles {
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    .from {
+        font-size: 20px;
+        padding-top: 12px;
+        margin-bottom: 5px;
+    }
+
+    .prices {
+        font-size: 40px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .shopN {
+        border-bottom: 1px solid white;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        width: 78px;
+        margin: 30px auto 0 auto;
+    }
+
+    .weLike {
+        font-size: 25px;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    #prdcts img {
+        width: 190px;
+        padding-bottom: 5px;
+    }
+
+    .shopBtn {
+        border: 2px solid black;
+        padding: 10px 20px;
+        width: 90px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 2px;
+        margin: 40px auto;
+    }
+
+    #xprssNsdr {
+        border-bottom: 1px solid rgb(185, 185, 185);
+        padding-bottom: 10px;
+    }
+
+    .readjust {
+        width: 50%;
+        padding: 0 5px;
+    }
+
+    .btmNav {
+        border: 2px solid black;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .freeShip {
+        font-size: 20px;
+        padding: 30px 0;
+        border-bottom: 1px solid rgb(185, 185, 185);
+        width: 600px;
+        margin: 0 auto 20px auto;
+    }
+
+    .trio {
+        padding-bottom: 20px;
+    }
+
+    .dvdrLine {
+        border-bottom: 1px solid rgb(185, 185, 185);
+        margin: 0 auto 25px auto;
+        width: 600px;
+    }
+
+    .klarna {
+        padding-bottom: 20px;
+    }
+
+    #dwnldSctn {
+        background-color: #f2f2f2;
+    }
+
+    .socials {
+        text-align: center;
+    }
+
+    .socials img {
+        padding: 0 29px;
+        margin: 15px 0;
+    }
+
+    .dwnldTxt {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .dwnldBtn {
+        background-color: black;
+        color: white;
+        padding: 15px 0;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 2px;
+        width: 275px;
+        text-align: center;
+        margin: 0 auto 30px auto;
+    }
+
+    footer {
+        width: 525px;
+        font-size: 9.5px;
+        color: #6f6f6f;
+        line-height: 13px;
+        margin: 15px auto;
+    }
+
+    .pddgTop {
+        padding-top: 20px;
+    }
+
+    .ftrAllCaps {
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+
+    a:link {
+        color: #6f6f6f;
+    }
+
+    a:hover {
+        color: #6f6f6f;
+    }
+
+    a:visited {
+        color: #6f6f6f;
+    }
+
+    a:active {
+        color: #6f6f6f;
+    }
+
+    .ftrTxtDec {
+        text-decoration: underline;
+    }
+
+    .ftrBtmNav {
+        padding: 10px 0 30px 0;
+        /* text-decoration: underline; */
+    }
+
+    .ftrBtmNav span {
+        padding: 0 2px;
+        text-decoration: underline;
+    }
+}
