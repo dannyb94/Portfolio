@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DELETE WHEN ALL PGS COMPLETE */
+
+
+
+/* STORIES */
+.storiesParallax {
+    /* background-image: url("assets/pexels-diana-light-7296698.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.storyCntnr {
+    /* margin: auto;
+    width: 50%;
+    padding-top: 45px; */
+}
+
+.storyCntnr > h2, p {
+    /* padding: 5px 0; */
+}
+
+.storyGrid {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1em;
+    overflow: hidden;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: flex-start; */
+}

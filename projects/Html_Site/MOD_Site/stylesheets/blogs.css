@@ -1,0 +1,62 @@
+/* BLOGS */
+#parallax {
+    background-image: url("../assets/pexels-diana-light-7296698.jpg");
+    min-height: 410px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 4em;
+    overflow: hidden;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin: 50px 225px;
+}
+
+.articles {
+    text-decoration: none;
+}
+
+.blog {
+    width: 350px;
+    height: 450px;
+    /* background-color: #535151; */
+    /* box-shadow: 2px 8px 10px #00000011; */
+    border-radius: 8px;
+}
+
+.blog img {
+    border-radius: 50px / 50px 0;
+    box-shadow: 2px 2px 8px #00000011;
+}
+
+.date {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    /* position: static; */
+    /* top: 50%; */
+    /* float: left; */
+    /* text-shadow: 1px 1px 2px #ffffff96; */
+    /* font-weight: 600; */
+    /* padding: 0 120px 50px -30px; */
+}
+
+.h4P {
+    margin-top: 25px;
+}
+
+.blgImg {
+    /* margin-top: 0;
+    padding-top: 0; */
+}

@@ -12,17 +12,19 @@ import Error from '../Pages/Error';
 
 export default function Body() {
     return (
-        <Routes>
-            <Route exact = {true} path = '/' element = {<Home />}/>
-            <Route path = '/Project1' element = {<Project1 />}/>
-            <Route path = '/Project3' element = {<Project3 />}/>
-            <Route path = '/Project5' element = {<Project5 />}/>
-            <Route path = '/Project6' element = {<Project6 />}/>
-            <Route path = '/Project7' element = {<Project7 />}/>
-            <Route path = '/Project8' element = {<Project8 />}/>
-            <Route path = '/Project9' element = {<Project9 />}/>
-            <Route path = '/Project10' element = {<Project10 />}/>
-            <Route path = '*' element = {<Error />}/>
-        </Routes>
+        <div id='bodyDiv'>
+            <Routes>
+                <Route exact = {true} path = '/' element = {<Home />}/>
+                <Route path = '/Project1' element = {<Project1 />}/>
+                <Route path = '/Project3' element = {<Project3 />}/>
+                <Route path = '/Project5' element = {<Project5 />}/>
+                <Route path = '/Project6' element = {<Project6 />}/>
+                <Route path = '/Project7' element = {<Project7 />}/>
+                <Route path = '/Project8' element = {<Project8 />}/>
+                <Route path = '/Project9' element = {<Project9 />}/>
+                <Route path = '/Project10' element = {<Project10 />}/>
+                <Route path = '*' element = {<Error />}/>
+            </Routes>
+        </div>
 );
 };

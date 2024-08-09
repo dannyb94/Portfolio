@@ -16,10 +16,19 @@
 /* -------------------------------- DESKTOP -------------------------------- */
 @media only screen and (min-width: 800px){
     /* -------------------------------- HOME -------------------------------- */
+    #logoDiv {
+        position: fixed;
+    }
+    
     #duLogo {
         width: 45px;
         display: block;
-        padding: 20px 20px;
+        padding: 17px;
+        /* position: fixed; */
+    }
+
+    #bodyDiv {
+        padding-top: 70px;
     }
 
     #centerCntnr {
@@ -181,5 +190,9 @@
     }
 
     /* -------------------------------- CONTACT/RESUME -------------------------------- */
+    #resume table {
+        margin: 0 auto;
+    }
 
+/* cellspacing="0" cellpadding="0" width="800px" align="center" */
 }

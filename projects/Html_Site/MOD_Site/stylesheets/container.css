@@ -1,0 +1,73 @@
+/* styles for all pages: nav, footer, fonts */
+* {
+    margin: 0;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* HEADER */
+header {
+    /* background-color: limegreen; */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+#webNav {
+    margin: auto 40px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+#logo {
+    margin-top: 50px;
+}
+
+.links {
+    float: right;
+    position: fixed;
+    transform: rotate(90deg);
+    top: 190px;
+    right: -80px;
+}
+
+.links > a {
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight: 400;
+}
+
+.links > a:visited {
+    color: black;
+}
+
+.links > a:hover {
+    color: #d0652f;
+}
+
+.links > a:active {
+    color: #537673;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #5376732d;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 15px 350px;
+    font-size: 13px;
+}
+
+.footer > p {
+    color: #537673ab;
+}

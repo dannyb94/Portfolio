@@ -1,0 +1,32 @@
+[
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/sofas/sloan-loveseat.jpg",
+        "name":"Sloan Loveseat",
+        "category":"sofas",
+        "price": 735
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/sofas/sloan-sofa.jpg",
+        "name":"Sloan Sofa",
+        "category":"sofas",
+        "price": 1520
+    },
+    {
+        "image":"https://github.com/dannyb94/AFS-220/blob/main/week3/capstone/client/src/assets/sofas/charlie-sleeper.jpg?raw=true",
+        "name":"Charlie Sleeper",
+        "category":"sofas",
+        "price": 3105
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/sofas/james-sleeper.jpg",
+        "name":"James Sleeper",
+        "category":"sofas",
+        "price": 2405
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/sofas/james-sleeper-twin.jpg",
+        "name":"James Sleeper - Twin",
+        "category":"sofas",
+        "price": 2105
+    }
+]

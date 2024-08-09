@@ -1,0 +1,26 @@
+[
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/ottomans/kyle_ottoman.jpg",
+        "name":"Kyle Ottoman",
+        "category":"ottomans",
+        "price": 495
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/ottomans/charlie_ottoman.jpg",
+        "name":"Charlie Ottoman",
+        "category":"ottomans",
+        "price": 525
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/ottomans/colton_stool-ottoman.jpg",
+        "name":"Colton Stool Ottoman",
+        "category":"ottomans",
+        "price": 375
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/ottomans/colton_storage-coffee-table-ottoman.jpg",
+        "name":"Colton Storage Coffee Table Ottoman",
+        "category":"ottomans",
+        "price": 635
+    }
+]

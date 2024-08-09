@@ -1,0 +1,32 @@
+[
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/tables/andre_side-table.jpg",
+        "name":"Andre Side Table",
+        "category":"tables",
+        "price": 48
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/tables/crane_side-table.jpg",
+        "name":"Crane Side Table",
+        "category":"tables",
+        "price": 67
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/tables/felix_coffee-table.jpg",
+        "name":"Felix Coffee Table",
+        "category":"tables",
+        "price": 105
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/tables/kenneth_dining-table.jpg",
+        "name":"Kenneth Dining Table",
+        "category":"tables",
+        "price": 105
+    },
+    {
+        "image":"https://raw.githubusercontent.com/dannyb94/AFS-220/main/week3/capstone/client/src/assets/tables/colton_storage-coffee-table-ottoman.jpg",
+        "name":"Colton Storage Coffee Table Ottoman",
+        "category":"tables",
+        "price": 635
+    }
+]
