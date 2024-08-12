@@ -56,9 +56,14 @@
         padding-top: 30px;
     }
 
+    #prdcts {
+        margin: 0 autp;
+    }
+
     #prdcts img {
         width: 190px;
         padding-bottom: 5px;
+        ;
     }
 
     .shopBtn {
